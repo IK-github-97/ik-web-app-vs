@@ -5,6 +5,17 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>ik_web_app_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/f0613c07-2556-45b0-8171-f68c85671ffd/resourceGroups/ik-resource-group/providers/microsoft.insights/components/ik-web-app-vs2022-github</ApplicationInsightsResourceId>
+    <UserSecretsId>309d7bbd-bb07-4302-a842-f46aef2ab0fe</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
+  </ItemGroup>
 
 </Project>
